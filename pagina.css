@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("./public/photo-1511140973288-19bf21d7e771.jpg");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: wrap;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 33vh;
+    color: white;
+    background-color:rgba(199, 199, 199, 0.342) ;
+}
+.subtitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 15vh;
+    color: white;
+    background-color: rgba(207, 207, 207, 0.295);
+}
+.promocion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 15vh;
+    background-color:rgba(180, 180, 180, 0.192) ;
+    color: white;
+}
+h1{
+    font-size: 15vh;
+}
+.sdS{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgba(180, 180, 180, 0.075);
+}
+.seacabo{
+    display: flex;
+    width: 100%;
+    height: 12vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: white;
+    background-color: rgba(180, 180, 180, 0.158);
+}
